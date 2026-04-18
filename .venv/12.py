@@ -1,5 +1,6 @@
+holes_letters = "abdegopq"
 def count_holes(word):
-    holes_letters = "abdegopq"
+    """Возвращает количество символов с дфрками в слове."""
     count = 0
     for ch in word:
         if ch in holes_letters:
@@ -12,7 +13,6 @@ words = text.split()
 
 holes = 0
 no_holes = 0
-
 result = []
 
 for w in words:
