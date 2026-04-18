@@ -1,6 +1,6 @@
 holes_letters = "abdegopq"
 def count_holes(word):
-    """Возвращает количество символов с дфрками в слове."""
+    """Возвращает количество символов с "дырками" в слове."""
     count = 0
     for ch in word:
         if ch in holes_letters:
